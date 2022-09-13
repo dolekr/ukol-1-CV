@@ -20,7 +20,7 @@ h2 {
 
 h3 {
     color: #FEF9E3;
-    font-size: 22px;
+    font-size: 25px;
     font-style: bold;
     text-align: left;
     margin-top: 45px;
@@ -31,6 +31,7 @@ p {
     color: #FEF9E3;
     font-size: 17px;
     margin: 10px 0px;
+    line-height: 2;
 }
 
 body {
@@ -217,7 +218,10 @@ a {
     padding-right: 80px;
 }
 
-
+li {
+    list-style-type: square;
+    line-height: 3;
+}
 
 
 /* PSEUDOTŘÍDY */
