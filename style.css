@@ -1,0 +1,241 @@
+h1 {
+    color: whitesmoke;
+    font-size: 60px;
+    font-family: "Silkscreen";
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+    padding: 10%;
+    text-shadow: 10px 2px 15px rgba(0,0,0,10);
+}
+
+h2 {
+    color: white;
+    font-size: 40px;
+    font-style: bold;
+    text-align: left;
+    margin-top: 0;
+    text-transform: uppercase;
+}
+
+h3 {
+    color: #FEF9E3;
+    font-size: 22px;
+    font-style: bold;
+    text-align: left;
+    margin-top: 45px;
+    margin-bottom: 0px;
+}
+
+p {
+    color: #FEF9E3;
+    font-size: 17px;
+    margin: 10px 0px;
+}
+
+body {
+    font-family: "Nunito Sans", Georgia, Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    color: #FEF9E3;
+    margin: 0;
+    background-color: #21446B;
+}
+
+th,
+tr,
+td {border-bottom: 1px solid #FEF9E3;
+    padding: 10px 0px;
+
+}
+
+table {
+    border-spacing: 0;
+    text-align: left;
+}
+
+/* sekce: */
+
+section {
+    overflow: auto;
+}
+
+.hlavicka {
+    padding: 50px;
+    background-image: url(pictures/texture3.jpg);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 50px 5%;
+}
+
+/* MENU */
+
+.menu {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #112338;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu a {
+    display: inline-block;
+    color: #FEF9E3;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 20px 30px;
+    margin: 0;
+}
+
+
+.kontakt {
+    background-color: #112338;
+    padding: 70px 20% 50px 20%;
+}
+
+.vzdelani {
+    background-color: #193452;
+    padding: 50px 20%;
+    clear: left;
+}
+
+.zkusenosti {
+    background-color: #112338;
+    padding: 50px 20%;
+}
+
+.kurzy {
+    background-color: #193452;
+    padding: 50px 20%;
+}
+
+.dovednosti {
+    background-color: #193452;
+    padding: 50px 20%;
+}
+
+.jazyky {
+    background-color: #193452;
+    padding: 50px 20%;
+}
+
+.zaliby {
+    background-color: #112338;
+    padding: 50px 20%;
+}
+
+.galerie {
+    background-color: #112338;
+    padding: 50px 20%;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+footer {
+    background-color: #21446B;
+    padding: 20px 20%;
+}
+
+/* další třídy: */
+
+.tags {
+    text-align: left;
+    font-weight: bold;
+    font-size: 25px;
+    padding-bottom: 50px;
+}
+
+.pfp {
+    width: 250px;
+    border-radius: 50% 50% 50% 50%;
+    float: left;
+    margin-right: 60px;
+    margin-bottom: 40px;
+    box-shadow: 0px 0px 12px rgb(0, 0, 0);
+}
+
+.galerie img {
+    width: 40%;
+    margin: 15px;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+}
+
+.skill_level {
+    text-align: right;
+    padding-left: 50px;
+}
+
+.skill,
+.skill_level {
+    padding: 10px 10px;
+}
+
+.socials img {
+    width: 70px;
+    padding: 20px;
+}
+
+.img-container {
+    text-align: center;
+}
+
+.rok {
+    font-style: italic;
+    color: rgb(137, 157, 177);
+}
+
+
+a {
+    text-decoration: none;
+    color: #FEF9E3;
+}
+
+.ikony_kontakt {
+    width: 30px;
+}
+
+.zaliby li,
+.jazyky li {
+    margin: 10px;
+}
+
+::selection {
+    background: #535353;
+}
+
+.tab_dovednosti,
+.tab_jazyky {
+    float: left;
+}
+
+.tab_dovednosti {
+    padding-right: 80px;
+}
+
+
+
+
+/* PSEUDOTŘÍDY */
+
+.menu a:hover,
+.menu a:focus,
+.menu a:active {
+    background-color: #21446B;
+}
+
+.email:hover,
+.email:focus,
+.email:active {
+    background-color: #21446B;
+}
+
+.vzdelani a:hover,
+.vzdelani a:focus,
+.vzdelani a:active {
+    background-color: #112338;
+}
