@@ -101,38 +101,33 @@ section {
 
 .vzdelani {
     background-color: #193452;
-    padding: 50px 20%;
+    padding: 70px 20% 50px 20%;
     clear: left;
 }
 
 .zkusenosti {
     background-color: #112338;
-    padding: 50px 20%;
+    padding: 70px 20% 50px 20%;
 }
 
 .kurzy {
     background-color: #193452;
-    padding: 50px 20%;
+    padding: 70px 20% 50px 20%;
 }
 
 .dovednosti {
     background-color: #193452;
-    padding: 50px 20%;
-}
-
-.jazyky {
-    background-color: #193452;
-    padding: 50px 20%;
+    padding: 70px 20% 70px 20%;
 }
 
 .zaliby {
     background-color: #112338;
-    padding: 50px 20%;
+    padding: 70px 20% 50px 20%;
 }
 
 .galerie {
     background-color: #112338;
-    padding: 50px 20%;
+    padding: 50px 20% 50px 20%;
     padding-bottom: 100px;
     text-align: center;
 }
@@ -200,8 +195,7 @@ a {
     width: 30px;
 }
 
-.zaliby li,
-.jazyky li {
+.zaliby li {
     margin: 10px;
 }
 
@@ -220,7 +214,7 @@ a {
 
 li {
     list-style-type: square;
-    line-height: 3;
+    line-height: 2.8;
 }
 
 
@@ -242,4 +236,10 @@ li {
 .vzdelani a:focus,
 .vzdelani a:active {
     background-color: #112338;
+}
+
+.zkusenosti a:hover,
+.zkusenosti a:focus,
+.zkusenosti a:active {
+    background-color: #21446B;
 }
